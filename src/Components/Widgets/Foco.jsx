@@ -35,7 +35,7 @@ const Foco = ( { foco, llama, CO, ID } ) => {
 
     const handle_est_boton_on = () =>{
         Setactivo("on")
-        activacion_foco(llama,CO,1,ID)
+        activacion_foco(CO,llama,1,ID)
     }
 
     const handle_est_boton_off = () =>{
